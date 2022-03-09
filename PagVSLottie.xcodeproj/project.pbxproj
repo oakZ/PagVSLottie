@@ -15,6 +15,21 @@
 		C4F4FB2027D781F2000DA6FF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C4F4FB1F27D781F2000DA6FF /* Assets.xcassets */; };
 		C4F4FB2327D781F2000DA6FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4F4FB2127D781F2000DA6FF /* LaunchScreen.storyboard */; };
 		C4F4FB2627D781F2000DA6FF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C4F4FB2527D781F2000DA6FF /* main.m */; };
+		C4F4FB2E27D89724000DA6FF /* PAGViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C4F4FB2D27D89724000DA6FF /* PAGViewController.m */; };
+		C4F4FB3127D89731000DA6FF /* LottieViewControllerOC.m in Sources */ = {isa = PBXBuildFile; fileRef = C4F4FB3027D89731000DA6FF /* LottieViewControllerOC.m */; };
+		C4F4FB3427D89FB4000DA6FF /* LottieViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4F4FB3327D89FB4000DA6FF /* LottieViewController.swift */; };
+		C4F4FFE427D8D522000DA6FF /* my_page_header_day_img_0.png in Resources */ = {isa = PBXBuildFile; fileRef = C4F4FFDF27D8D522000DA6FF /* my_page_header_day_img_0.png */; };
+		C4F4FFE527D8D522000DA6FF /* my_page_header_day_img_1.png in Resources */ = {isa = PBXBuildFile; fileRef = C4F4FFE027D8D522000DA6FF /* my_page_header_day_img_1.png */; };
+		C4F4FFE627D8D522000DA6FF /* my_page_header_day_img_2.png in Resources */ = {isa = PBXBuildFile; fileRef = C4F4FFE127D8D522000DA6FF /* my_page_header_day_img_2.png */; };
+		C4F4FFE727D8D522000DA6FF /* myPageLiving.json in Resources */ = {isa = PBXBuildFile; fileRef = C4F4FFE227D8D522000DA6FF /* myPageLiving.json */; };
+		C4F4FFE827D8D522000DA6FF /* my_page_header_day.json in Resources */ = {isa = PBXBuildFile; fileRef = C4F4FFE327D8D522000DA6FF /* my_page_header_day.json */; };
+		C4F4FFF227D8DEE3000DA6FF /* img_blue.png in Resources */ = {isa = PBXBuildFile; fileRef = C4F4FFEB27D8DEE3000DA6FF /* img_blue.png */; };
+		C4F4FFF327D8DEE3000DA6FF /* img_simujin.png in Resources */ = {isa = PBXBuildFile; fileRef = C4F4FFEC27D8DEE3000DA6FF /* img_simujin.png */; };
+		C4F4FFF427D8DEE3000DA6FF /* img_starshadow.png in Resources */ = {isa = PBXBuildFile; fileRef = C4F4FFED27D8DEE3000DA6FF /* img_starshadow.png */; };
+		C4F4FFF527D8DEE3000DA6FF /* img_danjuanyel.png in Resources */ = {isa = PBXBuildFile; fileRef = C4F4FFEE27D8DEE3000DA6FF /* img_danjuanyel.png */; };
+		C4F4FFF627D8DEE3000DA6FF /* user_avatar_living.json in Resources */ = {isa = PBXBuildFile; fileRef = C4F4FFEF27D8DEE3000DA6FF /* user_avatar_living.json */; };
+		C4F4FFF727D8DEE3000DA6FF /* live_product.json in Resources */ = {isa = PBXBuildFile; fileRef = C4F4FFF027D8DEE3000DA6FF /* live_product.json */; };
+		C4F4FFF827D8DEE3000DA6FF /* vodCollection.json in Resources */ = {isa = PBXBuildFile; fileRef = C4F4FFF127D8DEE3000DA6FF /* vodCollection.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +48,24 @@
 		C4F4FB2227D781F2000DA6FF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C4F4FB2427D781F2000DA6FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C4F4FB2527D781F2000DA6FF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C4F4FB2C27D89724000DA6FF /* PAGViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PAGViewController.h; sourceTree = "<group>"; };
+		C4F4FB2D27D89724000DA6FF /* PAGViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PAGViewController.m; sourceTree = "<group>"; };
+		C4F4FB2F27D89731000DA6FF /* LottieViewControllerOC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LottieViewControllerOC.h; sourceTree = "<group>"; };
+		C4F4FB3027D89731000DA6FF /* LottieViewControllerOC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LottieViewControllerOC.m; sourceTree = "<group>"; };
+		C4F4FB3227D89FB4000DA6FF /* PagVSLottie-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PagVSLottie-Bridging-Header.h"; sourceTree = "<group>"; };
+		C4F4FB3327D89FB4000DA6FF /* LottieViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottieViewController.swift; sourceTree = "<group>"; };
+		C4F4FFDF27D8D522000DA6FF /* my_page_header_day_img_0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = my_page_header_day_img_0.png; sourceTree = "<group>"; };
+		C4F4FFE027D8D522000DA6FF /* my_page_header_day_img_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = my_page_header_day_img_1.png; sourceTree = "<group>"; };
+		C4F4FFE127D8D522000DA6FF /* my_page_header_day_img_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = my_page_header_day_img_2.png; sourceTree = "<group>"; };
+		C4F4FFE227D8D522000DA6FF /* myPageLiving.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = myPageLiving.json; sourceTree = "<group>"; };
+		C4F4FFE327D8D522000DA6FF /* my_page_header_day.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = my_page_header_day.json; sourceTree = "<group>"; };
+		C4F4FFEB27D8DEE3000DA6FF /* img_blue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img_blue.png; sourceTree = "<group>"; };
+		C4F4FFEC27D8DEE3000DA6FF /* img_simujin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img_simujin.png; sourceTree = "<group>"; };
+		C4F4FFED27D8DEE3000DA6FF /* img_starshadow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img_starshadow.png; sourceTree = "<group>"; };
+		C4F4FFEE27D8DEE3000DA6FF /* img_danjuanyel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img_danjuanyel.png; sourceTree = "<group>"; };
+		C4F4FFEF27D8DEE3000DA6FF /* user_avatar_living.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = user_avatar_living.json; sourceTree = "<group>"; };
+		C4F4FFF027D8DEE3000DA6FF /* live_product.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = live_product.json; sourceTree = "<group>"; };
+		C4F4FFF127D8DEE3000DA6FF /* vodCollection.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = vodCollection.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +100,7 @@
 		C4F4FB0727D781F0000DA6FF = {
 			isa = PBXGroup;
 			children = (
+				C4F4FFDC27D8D522000DA6FF /* Resource */,
 				C4F4FB1227D781F0000DA6FF /* PagVSLottie */,
 				C4F4FB1127D781F0000DA6FF /* Products */,
 				7936CAE7810153F85930D885 /* Pods */,
@@ -96,8 +130,66 @@
 				C4F4FB2127D781F2000DA6FF /* LaunchScreen.storyboard */,
 				C4F4FB2427D781F2000DA6FF /* Info.plist */,
 				C4F4FB2527D781F2000DA6FF /* main.m */,
+				C4F4FB2C27D89724000DA6FF /* PAGViewController.h */,
+				C4F4FB2D27D89724000DA6FF /* PAGViewController.m */,
+				C4F4FB2F27D89731000DA6FF /* LottieViewControllerOC.h */,
+				C4F4FB3027D89731000DA6FF /* LottieViewControllerOC.m */,
+				C4F4FB3327D89FB4000DA6FF /* LottieViewController.swift */,
+				C4F4FB3227D89FB4000DA6FF /* PagVSLottie-Bridging-Header.h */,
 			);
 			path = PagVSLottie;
+			sourceTree = "<group>";
+		};
+		C4F4FFDC27D8D522000DA6FF /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				C4F4FFE927D8DEE3000DA6FF /* live_products */,
+				C4F4FFDD27D8D522000DA6FF /* my_page_header_day */,
+			);
+			name = Resource;
+			path = PagVSLottie/Resource;
+			sourceTree = "<group>";
+		};
+		C4F4FFDD27D8D522000DA6FF /* my_page_header_day */ = {
+			isa = PBXGroup;
+			children = (
+				C4F4FFDE27D8D522000DA6FF /* images */,
+				C4F4FFE227D8D522000DA6FF /* myPageLiving.json */,
+				C4F4FFE327D8D522000DA6FF /* my_page_header_day.json */,
+			);
+			path = my_page_header_day;
+			sourceTree = "<group>";
+		};
+		C4F4FFDE27D8D522000DA6FF /* images */ = {
+			isa = PBXGroup;
+			children = (
+				C4F4FFDF27D8D522000DA6FF /* my_page_header_day_img_0.png */,
+				C4F4FFE027D8D522000DA6FF /* my_page_header_day_img_1.png */,
+				C4F4FFE127D8D522000DA6FF /* my_page_header_day_img_2.png */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+		C4F4FFE927D8DEE3000DA6FF /* live_products */ = {
+			isa = PBXGroup;
+			children = (
+				C4F4FFEA27D8DEE3000DA6FF /* images */,
+				C4F4FFEF27D8DEE3000DA6FF /* user_avatar_living.json */,
+				C4F4FFF027D8DEE3000DA6FF /* live_product.json */,
+				C4F4FFF127D8DEE3000DA6FF /* vodCollection.json */,
+			);
+			path = live_products;
+			sourceTree = "<group>";
+		};
+		C4F4FFEA27D8DEE3000DA6FF /* images */ = {
+			isa = PBXGroup;
+			children = (
+				C4F4FFEB27D8DEE3000DA6FF /* img_blue.png */,
+				C4F4FFEC27D8DEE3000DA6FF /* img_simujin.png */,
+				C4F4FFED27D8DEE3000DA6FF /* img_starshadow.png */,
+				C4F4FFEE27D8DEE3000DA6FF /* img_danjuanyel.png */,
+			);
+			path = images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -133,6 +225,7 @@
 				TargetAttributes = {
 					C4F4FB0F27D781F0000DA6FF = {
 						CreatedOnToolsVersion = 13.0;
+						LastSwiftMigration = 1300;
 					};
 				};
 			};
@@ -159,9 +252,21 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C4F4FFF827D8DEE3000DA6FF /* vodCollection.json in Resources */,
+				C4F4FFF527D8DEE3000DA6FF /* img_danjuanyel.png in Resources */,
 				C4F4FB2327D781F2000DA6FF /* LaunchScreen.storyboard in Resources */,
+				C4F4FFE627D8D522000DA6FF /* my_page_header_day_img_2.png in Resources */,
+				C4F4FFE427D8D522000DA6FF /* my_page_header_day_img_0.png in Resources */,
+				C4F4FFF427D8DEE3000DA6FF /* img_starshadow.png in Resources */,
+				C4F4FFF627D8DEE3000DA6FF /* user_avatar_living.json in Resources */,
 				C4F4FB2027D781F2000DA6FF /* Assets.xcassets in Resources */,
 				C4F4FB1E27D781F0000DA6FF /* Main.storyboard in Resources */,
+				C4F4FFF327D8DEE3000DA6FF /* img_simujin.png in Resources */,
+				C4F4FFE727D8D522000DA6FF /* myPageLiving.json in Resources */,
+				C4F4FFE827D8D522000DA6FF /* my_page_header_day.json in Resources */,
+				C4F4FFF727D8DEE3000DA6FF /* live_product.json in Resources */,
+				C4F4FFE527D8D522000DA6FF /* my_page_header_day_img_1.png in Resources */,
+				C4F4FFF227D8DEE3000DA6FF /* img_blue.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -216,8 +321,11 @@
 			files = (
 				C4F4FB1B27D781F0000DA6FF /* ViewController.m in Sources */,
 				C4F4FB1527D781F0000DA6FF /* AppDelegate.m in Sources */,
+				C4F4FB2E27D89724000DA6FF /* PAGViewController.m in Sources */,
+				C4F4FB3427D89FB4000DA6FF /* LottieViewController.swift in Sources */,
 				C4F4FB2627D781F2000DA6FF /* main.m in Sources */,
 				C4F4FB1827D781F0000DA6FF /* SceneDelegate.m in Sources */,
+				C4F4FB3127D89731000DA6FF /* LottieViewControllerOC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -361,6 +469,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = F8M3UPHXVC;
@@ -380,6 +489,9 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.xueqiu.PagVSLottie;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "PagVSLottie/PagVSLottie-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -390,6 +502,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = F8M3UPHXVC;
@@ -409,6 +522,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.xueqiu.PagVSLottie;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "PagVSLottie/PagVSLottie-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
