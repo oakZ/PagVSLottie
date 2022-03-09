@@ -1,0 +1,32 @@
+PODS:
+  - ffavc (1.0.1)
+  - libpag (3.2.7.41)
+  - lottie-ios (3.1.6)
+  - Masonry (1.1.0)
+  - Toast (4.0.0)
+
+DEPENDENCIES:
+  - ffavc
+  - libpag
+  - lottie-ios (= 3.1.6)
+  - Masonry
+  - Toast
+
+SPEC REPOS:
+  trunk:
+    - ffavc
+    - libpag
+    - lottie-ios
+    - Masonry
+    - Toast
+
+SPEC CHECKSUMS:
+  ffavc: 04d06e3c85aa03185dbf00cc0a834311e4b2bcaa
+  libpag: ba710dcc6cab00b1508f8ef2c3aadf73950a3611
+  lottie-ios: 85ce835dd8c53e02509f20729fc7d6a4e6645a0a
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  Toast: 91b396c56ee72a5790816f40d3a94dd357abc196
+
+PODFILE CHECKSUM: 579f6b1eeff18032494224fc4be75bcb4ea6b50a
+
+COCOAPODS: 1.11.2

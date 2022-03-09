@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0EA0E55B4558993578EDA7CC /* libPods-PagVSLottie.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 11FB02D6CAB2F4C802179F32 /* libPods-PagVSLottie.a */; };
 		C4F4FB1527D781F0000DA6FF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C4F4FB1427D781F0000DA6FF /* AppDelegate.m */; };
 		C4F4FB1827D781F0000DA6FF /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C4F4FB1727D781F0000DA6FF /* SceneDelegate.m */; };
 		C4F4FB1B27D781F0000DA6FF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C4F4FB1A27D781F0000DA6FF /* ViewController.m */; };
@@ -17,6 +18,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		11FB02D6CAB2F4C802179F32 /* libPods-PagVSLottie.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PagVSLottie.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		636E8B3EE96B61605E3195B1 /* Pods-PagVSLottie.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PagVSLottie.debug.xcconfig"; path = "Target Support Files/Pods-PagVSLottie/Pods-PagVSLottie.debug.xcconfig"; sourceTree = "<group>"; };
+		BEB635D7A5CE721494B919E2 /* Pods-PagVSLottie.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PagVSLottie.release.xcconfig"; path = "Target Support Files/Pods-PagVSLottie/Pods-PagVSLottie.release.xcconfig"; sourceTree = "<group>"; };
 		C4F4FB1027D781F0000DA6FF /* PagVSLottie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PagVSLottie.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4F4FB1327D781F0000DA6FF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		C4F4FB1427D781F0000DA6FF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -36,17 +40,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0EA0E55B4558993578EDA7CC /* libPods-PagVSLottie.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5556E4A3CE290EC59CB6B795 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				11FB02D6CAB2F4C802179F32 /* libPods-PagVSLottie.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7936CAE7810153F85930D885 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				636E8B3EE96B61605E3195B1 /* Pods-PagVSLottie.debug.xcconfig */,
+				BEB635D7A5CE721494B919E2 /* Pods-PagVSLottie.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		C4F4FB0727D781F0000DA6FF = {
 			isa = PBXGroup;
 			children = (
 				C4F4FB1227D781F0000DA6FF /* PagVSLottie */,
 				C4F4FB1127D781F0000DA6FF /* Products */,
+				7936CAE7810153F85930D885 /* Pods */,
+				5556E4A3CE290EC59CB6B795 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -83,9 +107,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C4F4FB2927D781F2000DA6FF /* Build configuration list for PBXNativeTarget "PagVSLottie" */;
 			buildPhases = (
+				392373EFE14BED2E6B8230B0 /* [CP] Check Pods Manifest.lock */,
 				C4F4FB0C27D781F0000DA6FF /* Sources */,
 				C4F4FB0D27D781F0000DA6FF /* Frameworks */,
 				C4F4FB0E27D781F0000DA6FF /* Resources */,
+				33C8589720845DCCD28C4E27 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -140,6 +166,48 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		33C8589720845DCCD28C4E27 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PagVSLottie/Pods-PagVSLottie-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PagVSLottie/Pods-PagVSLottie-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PagVSLottie/Pods-PagVSLottie-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		392373EFE14BED2E6B8230B0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PagVSLottie-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		C4F4FB0C27D781F0000DA6FF /* Sources */ = {
@@ -289,11 +357,14 @@
 		};
 		C4F4FB2A27D781F2000DA6FF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 636E8B3EE96B61605E3195B1 /* Pods-PagVSLottie.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F8M3UPHXVC;
+				ENABLE_BITCODE = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = PagVSLottie/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -315,11 +386,14 @@
 		};
 		C4F4FB2B27D781F2000DA6FF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BEB635D7A5CE721494B919E2 /* Pods-PagVSLottie.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F8M3UPHXVC;
+				ENABLE_BITCODE = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = PagVSLottie/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
