@@ -36,7 +36,7 @@
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
-    return 2;
+    return 3;
 }
 
 - (NSString *)titleForIndexPath:(NSIndexPath *)indexPath
@@ -46,6 +46,9 @@
     }
     if (1 == indexPath.row) {
         return @"Lottie";
+    }
+    if (2 == indexPath.row) {
+        return @"Compare";
     }
     return @"unknown";
 }
@@ -65,6 +68,9 @@
     } else if (1 == indexPath.row) {
         LottieViewController *lottie = [[LottieViewController alloc] init];
         [self.navigationController pushViewController:lottie animated:YES];
+    } else if (2 == indexPath.row) {
+        CompareViewController *vc = [[CompareViewController alloc] init];
+        [self.navigationController pushViewController:vc animated:YES];
     }
 }
 

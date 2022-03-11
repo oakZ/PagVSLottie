@@ -27,6 +27,8 @@ class LottieViewController: UIViewController {
         leftButton.addTarget(self, action: #selector(clicked(button:)), for: .touchUpInside)
         rightButton.setTitle("stop", for: .normal)
         rightButton.addTarget(self, action: #selector(clicked(button:)), for: .touchUpInside)
+        
+        loadFile(name: "live_product")
     }
     
     override func viewDidLayoutSubviews() {
